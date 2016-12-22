@@ -1,4 +1,130 @@
 [
+ {
+    "number": 34,
+    "title": "December 2016",
+    "date": "2016-12-16 09:51:35",
+    "image": "episodes/episode_34.png",
+    "impact_statement": "In this episode of the eLife podcast we hear about fossil footprints, taking medical research to the clinic, sleepy flies, team-working ants and diversity in science.",
+    "mp3": "https://nakeddiscovery.com/scripts/mp3s/audio/eLife_Podcast_16.12.mp3",
+    "subjects": [],
+    "chapters": [
+      {
+        "number": 1,
+        "title": "Stepping back in time",
+        "time": 34,
+        "impact_statement": "Fossil footprints reveal that some of our human-like ancestors could have been taller than we thought",
+        "articles": [
+          "19568",
+          "22886",
+        "sidebar": "Stepping back in time: Listen to Marco Cherin talk about the Laetoli footprints"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Making the most of preclinical evidence",
+        "time": 427,
+        "impact_statement": "A new approach helps researchers to assess data from many small-scale studies before designing clinical trials",
+        "articles": [
+          "17850",
+        "sidebar": "Making the most of preclinical evidence: Listen to Manoj Lalu discuss the challenges of taking medical research to the clinic"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "The “food coma” effect",
+        "time": 755,
+        "impact_statement": "The size and nutritional content of meals influences how sleepy a fly feels afterwards",
+        "articles": [
+          "19334",
+        "sidebar": "The “food coma” effect: Listen to William Ja talk about sleepy flies"
+        ]
+      }, 
+      {
+        "number": 4,
+        "title": "Off the beaten track",
+        "time": 1080,
+        "impact_statement": "A new kind of ant trail helps ants collectively navigate back to the nest while carrying a large food item.",
+        "articles": [
+          "20185",
+        "sidebar": "Off the beaten track: Listen to Ofer Feinerman talk about how ants navigate in teams"
+        ]
+      },  
+      {
+        "number": 5,
+        "title": "Diversity in science",
+        "time": 1409,
+        "impact_statement": "How can we ensure that minority backgrounds are fairly represented in science?",
+        "articles": [
+          "21393",
+        "sidebar": "Diversity in science: Listen to Kenneth Gibbs discuss underrepresented minorities in science"
+        ]
+      }
+    ]
+  },
+  {
+    "number": 33,
+    "title": "November 2016",
+    "date": "2016-11-15 09:06:06",
+    "image": "episodes/episode_33.png",
+    "impact_statement": "In this episode of the eLife podcast we hear about the first heartbeat, African sleeping sickness, elephant genetics, the rubber hand illusion and women in science.",
+    "mp3": "https://nakeddiscovery.com/scripts/mp3s/audio/eLife_Podcast_16.10.mp3",
+    "subjects": [],
+    "chapters": [
+      {
+        "number": 1,
+        "title": "Time to beat",
+        "time": 33,
+        "impact_statement": "The heart starts to beat earlier than previously thought",
+        "articles": [
+          "17113",
+        "sidebar": "Time to beat: Listen to Paul Riley talk about when the heart starts to beat"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Lurking in the skin",
+        "time": 402,
+        "impact_statement": "The parasites that cause African sleeping sickness can hide in the skin of healthy people",
+        "articles": [
+          "17716",
+          "21506",
+        "sidebar": "Lurking under the skin: Listen to Annette MacLeod talk about African sleeping sickness"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Why don’t elephants get cancer?",
+        "time": 769,
+        "impact_statement": "Elephants have extra copies of a gene that protects against cancer",
+        "articles": [
+          "11994",
+          "21864",
+        "sidebar": "Why don’t elephants get cancer? Listen to Vincent Lynch talk about elephant genetics"
+        ]
+      }, 
+      {
+        "number": 4,
+        "title": "Out of control",
+        "time": 1114,
+        "impact_statement": "The rubber hand illusion and feelings of disembodiment",
+        "articles": [
+          "14972",
+          "21404",
+        "sidebar": "Out of control: Listen to Francesca Garbarini talk about the rubber hand illusion"
+        ]
+      },  
+      {
+        "number": 5,
+        "title": "A woman in science",
+        "time": 1472,
+        "impact_statement": "Indira Raman offers her perspective on being a scientist",
+        "articles": [
+          "21723",
+        "sidebar": "A woman in science: Listen to Indira Raman talk about her experiences"
+        ]
+      }
+    ]
+  },
   {
     "number": 32,
     "title": "September 2016",
@@ -15,7 +141,8 @@
         "impact_statement": "Fragments of ancient proteins are preserved in ostrich eggshells",
         "articles": [
           "17092",
-          "20877"
+          "20877",
+        "sidebar": "Matthew Collins discusses ancient ostrich proteins in the eLife podcast"
         ]
       },
       {
@@ -24,7 +151,8 @@
         "time": 391,
         "impact_statement": "Exploring the neuroscience of the cocktail party effect",
         "articles": [
-          "16747"
+          "16747",
+        "sidebar": "Daniel Oberfeld talks about cocktail party conversations in the eLife podcast"
         ]
       },
       {
@@ -33,25 +161,28 @@
         "time": 720,
         "impact_statement": "The drug rapamycin increases life expectancy in middle-aged mice",
         "articles": [
-          "16351"
+          "16351",
+        "sidebar": "Matt Kaeberlein discusses aging mice in the eLife podcast"
         ]
-      },
+      }, 
       {
         "number": 4,
         "title": "Net gains",
         "time": 1059,
         "impact_statement": "Modelling the effectiveness of bednets against mosquitoes and malaria",
         "articles": [
-          "16090"
+          "16090",
+        "sidebar": "Tom Churcher talks about mosquito nets in the eLife podcast"
         ]
-      },
+      },  
       {
         "number": 5,
         "title": "Dry spells",
         "time": 1380,
         "impact_statement": "The ways that plants respond to drought can be changed",
         "articles": [
-          "13768"
+          "13768",
+        "sidebar": "Kathy Barton discusses resourceful plants in the eLife podcast"
         ]
       }
     ]
@@ -71,7 +202,8 @@
         "time": 31,
         "impact_statement": "A large scale study reveals how human height has changed in the last 100 years",
         "articles": [
-          "13410"
+          "13410",
+        "sidebar": "James Bentham and Majid Ezzati discuss human height in the eLife podcast"
         ]
       },
       {
@@ -80,7 +212,8 @@
         "time": 348,
         "impact_statement": "Zebrafish have lubricated joints similar to those in humans and other land animals",
         "articles": [
-          "16415"
+          "16415",
+        "sidebar": "Gage Crump talks about zebrafish joints in the eLife podcast"
         ]
       },
       {
@@ -90,8 +223,9 @@
         "impact_statement": "Birds tune their light sensitive cells to maximise the number of colours they see",
         "articles": [
           "15675"
+        "sidebar": "Matthew Toomey talks about colour vision in birds in the eLife podcast"
         ]
-      },
+      }, 
       {
         "number": 4,
         "title": "Making the effort",
@@ -99,8 +233,9 @@
         "impact_statement": "Travel motivates chimpanzees to use tools",
         "articles": [
           "16371"
+        "sidebar": "Thibaud Gruber discusses what motivates chimps to use tools in the eLife podcast"
         ]
-      },
+      },  
       {
         "number": 5,
         "title": "In the open",
@@ -108,7 +243,8 @@
         "impact_statement": "Researchers can benefit from making their research findings freely available online",
         "articles": [
           "16800"
-        ]
+        "sidebar": "Erin McKiernan talks about open science in the eLife podcast"
+        ]  
       }
     ]
   },
@@ -128,6 +264,7 @@
         "impact_statement": "A new way to produce a malaria drug using tobacco plants",
         "articles": [
           "13664"
+        "sidebar": "Ralph Bock talks about using plants as drug factories in the eLife podcast"
         ]
       },
       {
@@ -137,6 +274,7 @@
         "impact_statement": "Is science at risk of losing talented researchers to other professions?",
         "articles": [
           "17393"
+        "sidebar": "Alik Widge talks about the challenges facing early career researchers in the eLife podcast"
         ]
       },
       {
@@ -146,6 +284,7 @@
         "impact_statement": "Honeybees adjust the position of their antennae as they fly",
         "articles": [
           "14449"
+        "sidebar": "Sanjay Sane talks about honeybee antennae in the eLife podcast"
         ]
       },
       {
@@ -155,6 +294,7 @@
         "impact_statement": "How humans have migrated around Africa in the last 10,000 years",
         "articles": [
           "15266"
+        "sidebar": "George Busby talks about human migrations in Africa in the eLife podcast"
         ]
       },
       {
@@ -164,6 +304,7 @@
         "impact_statement": "Brain imaging reveals how we experience someone else’s pain",
         "articles": [
           "15166"
+        "sidebar": "Anjali Krishnan talks about how we experience pain in the eLife podcast"
         ]
       }
     ]
@@ -185,6 +326,7 @@
         "articles": [
           "12473",
           "15957"
+        "sidebar": "James Collins talks about parasitic flatworms in the eLife podcast"
         ]
       },
       {
@@ -193,7 +335,8 @@
         "time": 392,
         "impact_statement": "Genetics reveals how an 11,000 year-old dog cancer has spread around the world",
         "articles": [
-          "14552"
+          "14552",
+        "sidebar": "Andrea Strakova and Máire Ní Leathlobhair talk about canine transmissible cancer in the eLife podcast"
         ]
       },
       {
@@ -202,7 +345,8 @@
         "time": 743,
         "impact_statement": "Drugs that block the hormone oestrogen have the potential to treat seizures",
         "articles": [
-          "12917"
+          "12917",
+        "sidebar": "Catherine Woolley talks about epilepsy in the eLife podcast"
         ]
       },
       {
@@ -211,7 +355,8 @@
         "time": 1107,
         "impact_statement": "University students gain hands-on experience of a new DNA sequencing technology",
         "articles": [
-          "14258"
+          "14258",
+        "sidebar": "Yaniv Erlich talks about the genomics course in the eLife podcast"
         ]
       },
       {
@@ -221,7 +366,8 @@
         "impact_statement": "Microbes in the gut influence the social behaviour of mice",
         "articles": [
           "13442",
-          "17052"
+          "17052",
+        "sidebar": "Mar Gacias talks about gut microbes and the brain in the eLife podcast"
         ]
       }
     ]
@@ -241,7 +387,8 @@
         "time": 35,
         "impact_statement": "The guts of male and female fruit flies age differently",
         "articles": [
-          "10956"
+          "10956",
+        "sidebar": "Jenny Regan talks about sex differences in aging in the eLife podcast"
         ]
       },
       {
@@ -250,7 +397,8 @@
         "time": 363,
         "impact_statement": "An artificial fingertip can recreate a sense of touch",
         "articles": [
-          "09148"
+          "09148",
+        "sidebar": "Calogero Oddo discusses artificial fingertips in the eLife podcast"
         ]
       },
       {
@@ -259,7 +407,8 @@
         "time": 675,
         "impact_statement": "DNA from 18th century teeth reveals plague secrets",
         "articles": [
-          "12994"
+          "12994",
+        "sidebar": "Kirsten Bos talks about pathogens from the past in the eLife podcast"
         ]
       },
       {
@@ -268,7 +417,8 @@
         "time": 960,
         "impact_statement": "Genomics can track antibiotic resistance during beef production",
         "articles": [
-          "13195"
+          "13195",
+        "sidebar": "Noelle Noyes talks about antibiotic resistance and beef production in the eLife podcast"
         ]
       },
       {
@@ -277,7 +427,8 @@
         "time": 1272,
         "impact_statement": "An early warning system for dengue fever",
         "articles": [
-          "11285"
+          "11285",
+        "sidebar": "Rachel Lowe talks about dengue fever in the eLife podcast"
         ]
       }
     ]
@@ -297,7 +448,8 @@
         "time": 32,
         "impact_statement": "Moving meal times can disrupt learning and memory",
         "articles": [
-          "09460"
+          "09460",
+        "sidebar": "Dawn Loh talks about the perils of moving meal times in the eLife podcast"
         ]
       },
       {
@@ -306,7 +458,8 @@
         "time": 368,
         "impact_statement": "X-rays can reveal the internal anatomical details of certain fossils",
         "articles": [
-          "12129"
+          "12129",
+        "sidebar": "Thomas van de Kamp reveals a new side to fossils in the eLife podcast"
         ]
       },
       {
@@ -315,7 +468,8 @@
         "time": 676,
         "impact_statement": "Burst muscle capacity is the key to maneuverability for hummingbirds",
         "articles": [
-          "11159"
+          "11159",
+        "sidebar": "Doug Altshuler talks about the importance of burst muscle capacity in the eLife podcast"
         ]
       },
       {
@@ -324,7 +478,8 @@
         "time": 965,
         "impact_statement": "Two trained monkeys and a gambling task",
         "articles": [
-          "09418"
+          "09418",
+        "sidebar": "Veit Stuphorn talks about decision-making in the eLife podcast"
         ]
       },
       {
@@ -333,7 +488,8 @@
         "time": 1313,
         "impact_statement": "Neural stem cells in injured axolotls behave like embryonic cells",
         "articles": [
-          "10230"
+          "10230",
+        "sidebar": "Elly Tanaka talks about organ regeneration in axolotls in the eLife podcast"
         ]
       }
     ]
@@ -354,7 +510,8 @@
         "impact_statement": "Mosquitos identify human targets by detecting body heat.",
         "articles": [
           "11750",
-          "12838"
+          "12838",
+        "sidebar": "Leslie Vosshall discusses how mosquitos detect humans in the eLife podcast"
         ]
       },
       {
@@ -364,7 +521,8 @@
         "impact_statement": "How can more than 100 different species of coral spawn at the same time?",
         "articles": [
           "09991",
-          "12936"
+          "12936",
+        "sidebar": "Oren Levy talks about mass spawning in coral reefs in the eLife podcast"
         ]
       },
       {
@@ -374,7 +532,8 @@
         "impact_statement": "Male rats and female rats respond to stress in different ways.",
         "articles": [
           "11352",
-          "13119"
+          "13119",
+        "sidebar": ""
         ]
       },
       {
@@ -384,7 +543,8 @@
         "impact_statement": "How can natural selection favor the evolution of non-reproductive worker ants?",
         "articles": [
           "08918",
-          "12721"
+          "12721",
+        "sidebar": "Martin Nowak discusses the benefits of eusocial organisation in the eLife podcast"
         ]
       },
       {
@@ -393,7 +553,8 @@
         "time": 1295,
         "impact_statement": "Newts can undergo as many as 19 lens regeneration events.",
         "articles": [
-          "09594"
+          "09594",
+        "sidebar": ""
         ]
       }
     ]
@@ -413,7 +574,8 @@
         "time": 33,
         "impact_statement": "Why do the bacteria in deep-sea mussels have so many toxin-like genes?",
         "articles": [
-          "07966"
+          "07966",
+        "sidebar": ""
         ]
       },
       {
@@ -423,7 +585,8 @@
         "impact_statement": "The elemental carbon in cigarette smoke causes inflammation and emphysema in the lung.",
         "articles": [
           "09623",
-          "11709"
+          "11709",
+        "sidebar": ""
         ]
       },
       {
@@ -432,7 +595,8 @@
         "time": 731,
         "impact_statement": "A mathematical model has been used to explore different approaches to minimizing antibiotic resistance.",
         "articles": [
-          "10559"
+          "10559",
+        "sidebar": ""
         ]
       },
       {
@@ -441,7 +605,8 @@
         "time": 1064,
         "impact_statement": "A nap during the day helps with the retention of important memories.",
         "articles": [
-          "07903"
+          "07903",
+        "sidebar": "Kinga Igloi talks about sleep and memory in the eLife podcast"
         ]
       },
       {
@@ -451,6 +616,7 @@
         "impact_statement": "Unconscious perception does not exist.",
         "articles": [
           "09651"
+        "sidebar": "Megan Peters talks about unconscious perception in the eLife podcast"
         ]
       }
     ]
@@ -470,7 +636,8 @@
         "time": 35,
         "impact_statement": "Exploring the links between the chickenpox vaccination and shingles.",
         "articles": [
-          "07116"
+          "07116",
+        "sidebar": ""
         ]
       },
       {
@@ -479,7 +646,8 @@
         "time": 376,
         "impact_statement": "Some bats rely on the detection of acoustic shadows to locate their prey.",
         "articles": [
-          "07404"
+          "07404",
+        "sidebar": "Elizabeth Clare talks about acoustic shadows and camouflage in the eLife podcast"
         ]
       },
       {
@@ -488,7 +656,8 @@
         "time": 644,
         "impact_statement": "Small animals can escape larger predators by exploiting their ability to turn more rapidly.",
         "articles": [
-          "06487"
+          "06487",
+        "sidebar": ""
         ]
       },
       {
@@ -497,7 +666,8 @@
         "time": 937,
         "impact_statement": "The quality of parenting received by young beetles influences how they look after their own larvae.",
         "articles": [
-          "07340"
+          "07340",
+        "sidebar": "Rebecca Kilner discusses how parenting influences offspring in beetles"
         ]
       },
       {
@@ -506,7 +676,8 @@
         "time": 1214,
         "impact_statement": "The distribution of brain atrophy in patients with Parkinson's Disease has a network structure.",
         "articles": [
-          "08440"
+          "08440",
+        "sidebar": "Alain Dagher discusses Parkinson's Disease in the eLife podcast"
         ]
       },
       {
@@ -516,7 +687,8 @@
         "impact_statement": "The region of the brain that links stress and depression has been identified.",
         "articles": [
           "08752",
-          "10829"
+          "10829",
+        "sidebar": "Prerana Shrestha talks about the link between stress and depression"
         ]
       }
     ]
@@ -536,7 +708,8 @@
         "time": 0,
         "impact_statement": "",
         "articles": [
-          "09560"
+          "09560",
+        "sidebar": "Lee Berger, Charles Musiba and John Hawks talk about Homo naledi in the eLife Podcast"
         ]
       },
       {
@@ -545,7 +718,8 @@
         "time": 0,
         "impact_statement": "",
         "articles": [
-          "09561"
+          "09561",
+        "sidebar": "Lee Berger, Charles Musiba and John Hawks talk about Homo naledi in the eLife Podcast"
         ]
       },
       {
@@ -554,7 +728,8 @@
         "time": 0,
         "impact_statement": "",
         "articles": [
-          "10627"
+          "10627",
+        "sidebar": ""
         ]
       }
     ]
@@ -575,7 +750,8 @@
         "impact_statement": "Neurons in worms can sense the earth's magnetic field.",
         "articles": [
           "07493",
-          "09666"
+          "09666",
+        "sidebar": ""
         ]
       },
       {
@@ -584,7 +760,8 @@
         "time": 367,
         "impact_statement": "How hyper-loading might make cancers kill themselves.",
         "articles": [
-          "06907"
+          "06907",
+        "sidebar": ""
         ]
       },
       {
@@ -593,7 +770,8 @@
         "time": 698,
         "impact_statement": "Sperm DNA must undergo major changes before mitosis.",
         "articles": [
-          "07378"
+          "07378",
+        "sidebar": "Mia Levine talks about mitosis in the eLife Podcast"
         ]
       },
       {
@@ -602,7 +780,8 @@
         "time": 1053,
         "impact_statement": "Closing in on Dengue fever and chikungunya fever.",
         "articles": [
-          "08347"
+          "08347",
+        "sidebar": ""
         ]
       }
     ]
@@ -622,7 +801,8 @@
         "time": 36,
         "impact_statement": "What causes tinnitus and hyperacusis?",
         "articles": [
-          "06576"
+          "06576",
+        "sidebar": "Richard Salvi talks about tinnitus in the eLife Podcast"
         ]
       },
       {
@@ -631,7 +811,8 @@
         "time": 386,
         "impact_statement": "How do salamanders survive repeated amputation of their limbs?",
         "articles": [
-          "05505"
+          "05505",
+        "sidebar": "Maximina Yun talks about regeneration in the eLife podcast"
         ]
       },
       {
@@ -640,7 +821,8 @@
         "time": 700,
         "impact_statement": "Mice use ultrasound to communicate during courtship.",
         "articles": [
-          "06203"
+          "06203",
+        "sidebar": "Joshua Neunuebel discusses mice, courtship and ultrasound in the eLife Podcast"
         ]
       },
       {
@@ -649,7 +831,8 @@
         "time": 1010,
         "impact_statement": "Flies get to grips with acoustic duetting.",
         "articles": [
-          "07277"
+          "07277",
+        "sidebar": "Mala Murthy talks about acoustic duetting in the eLife Podcast"
         ]
       },
       {
@@ -659,7 +842,8 @@
         "impact_statement": "Covalent bonds help bacteria stick to tissue.",
         "articles": [
           "06638",
-          "08710"
+          "08710",
+        "sidebar": "Ulrich Schwarz-Linek talks about chemical harpoons in the eLife Podcast"
         ]
       }
     ]
@@ -680,7 +864,8 @@
         "impact_statement": "Functional MRI suggests that infants and adults experience pain in very similar ways.",
         "articles": [
           "06356",
-          "07552"
+          "07552",
+        "sidebar": "Listen to an interview with Rebeccah Slater in the eLife Podcast"
         ]
       },
       {
@@ -689,7 +874,8 @@
         "time": 351,
         "impact_statement": "More than 2000 students have helped shed new light on the genomics of bacteriophages.",
         "articles": [
-          "06416"
+          "06416",
+        "sidebar": "Listen to an interview with Graham Hatfull in the eLife Podcast"
         ]
       },
       {
@@ -699,7 +885,8 @@
         "impact_statement": "Porpoises use a sophisticated sonar system to locate and track prey.",
         "articles": [
           "05651",
-          "07690"
+          "07690",
+        "sidebar": ""
         ]
       },
       {
@@ -708,7 +895,8 @@
         "time": 1021,
         "impact_statement": "Researchers have discovered a neural code for food abundance.",
         "articles": [
-          "06259"
+          "06259",
+        "sidebar": "Listen to an interview with QueeLim Ch'ng in the eLife Podcast"
         ]
       },
       {
@@ -718,7 +906,8 @@
         "impact_statement": "Zebrafish can make their own sunscreen.",
         "articles": [
           "05919",
-          "07961"
+          "07961",
+        "sidebar": "Listen to an interview with Taifo Mahmud in the eLife Podcast"
         ]
       }
     ]
@@ -739,7 +928,8 @@
         "impact_statement": "Researchers have made a breakthrough in the search for a vaccine.",
         "articles": [
           "06054",
-          "06883"
+          "06883",
+        "sidebar": "Betsy Herold discusses a vaccine for herpes in the eLife Podcast"
         ]
       },
       {
@@ -748,7 +938,8 @@
         "time": 406,
         "impact_statement": "What can experiments on flies teach us about traumatic brain injuries?",
         "articles": [
-          "04790"
+          "04790",
+        "sidebar": ""
         ]
       },
       {
@@ -757,7 +948,8 @@
         "time": 793,
         "impact_statement": "Where there's beer, there's bacteria.",
         "articles": [
-          "04634"
+          "04634",
+        "sidebar": "Nicholas Bokulich talks about bacteria and breweries in the eLife Podcast"
         ]
       },
       {
@@ -766,7 +958,8 @@
         "time": 1070,
         "impact_statement": "Researchers have discovered a neural code for food abundance.",
         "articles": [
-          "collections/natural-history-model-organisms"
+          "collections/natural-history-model-organisms",
+        "sidebar": ""
         ]
       },
       {
@@ -775,7 +968,8 @@
         "time": 1390,
         "impact_statement": "Watching what happens in the brain of a rat during a social interaction.",
         "articles": [
-          "03614"
+          "03614",
+        "sidebar": ""
         ]
       }
     ]
@@ -796,7 +990,8 @@
         "impact_statement": "Whole genome sequencing is providing new insights into the spread of different lineages of TB.",
         "articles": [
           "05166",
-          "06782"
+          "06782",
+        "sidebar": "Judith Glynn talks about TB in the eLife podcast"
         ]
       },
       {
@@ -806,7 +1001,8 @@
         "impact_statement": "Sniffing our hand after a handshake may allow us to detect chemical signals produced by others.",
         "articles": [
           "05154",
-          "06758"
+          "06758",
+        "sidebar": "Idan Frumin discusses handshakes on the eLife podcast"
         ]
       },
       {
@@ -815,7 +1011,8 @@
         "time": 611,
         "impact_statement": "What are the side effects when Tenofovir gel is used as a prophylactic against HIV?",
         "articles": [
-          "04525"
+          "04525",
+        "sidebar": "Florian Hladik discusses the side effects of a prophylactic"
         ]
       },
       {
@@ -824,7 +1021,8 @@
         "time": 889,
         "impact_statement": "Neuroscientists are studying the link between genetics and social behaviour in ants.",
         "articles": [
-          "04775"
+          "04775",
+        "sidebar": "Timothy Linksvayer discusses the division of labour in ants in the eLife podcast"
         ]
       },
       {
@@ -833,7 +1031,8 @@
         "time": 1196,
         "impact_statement": "Researchers are exploring the genetic architecture of gene expression in baboons and other primates.",
         "articles": [
-          "04729"
+          "04729",
+        "sidebar": "Jenny Tung discusses genetics and baboons in the eLife podcast"
         ]
       }
     ]
@@ -853,7 +1052,8 @@
         "time": 36,
         "impact_statement": "Light can be used to control the motility of sperm.",
         "articles": [
-          "05161"
+          "05161",
+        "sidebar": "Listen to Vera Jansen and Dagmar Wachten in the eLife podcast"
         ]
       },
       {
@@ -862,17 +1062,19 @@
         "time": 330,
         "impact_statement": "Specially protected messenger RNA molecules allow hibernating squirrels to warm up quickly.",
         "articles": [
-          "04517"
+          "04517",
+        "sidebar": "Listen to an interview with Sandy Martin in the eLife podcast"
         ]
       },
       {
         "number": 3,
         "title": "A second body clock",
         "time": 663,
-        "impact_statement": "Dopamine drives an \"ultradian\" clock with a period of around four hours in mice.",
+        "impact_statement": "Dopamine drives an "ultradian" clock with a period of around four hours in mice.",
         "articles": [
           "05105",
-          "06351"
+          "06351",
+        "sidebar": "Florian Storch discusses ultradian rhythms in the eLife podcast"
         ]
       },
       {
@@ -881,7 +1083,8 @@
         "time": 926,
         "impact_statement": "Learning more about how enzymes work could lead to the design of new enzymes.",
         "articles": [
-          "02777"
+          "02777",
+        "sidebar": ""
         ]
       },
       {
@@ -890,7 +1093,8 @@
         "time": 1219,
         "impact_statement": "Switching off the RFRP3 gene in the hypothalamus prevents stress-induced infertility in rats.",
         "articles": [
-          "04316"
+          "04316",
+        "sidebar": "Listen to an interview with Anna Geraghty and Daniela Kaufer in the eLife podcast"
         ]
       }
     ]
@@ -910,7 +1114,8 @@
         "time": 39,
         "impact_statement": "The Reproducibility Project: Cancer Biology will replicate selected experiments from 50 high-impact papers in preclinical cancer biology research.",
         "articles": [
-          "04333"
+          "04333",
+        "sidebar": "Tim Errington discusses reproducibility in the eLife podcast"
         ]
       },
       {
@@ -919,7 +1124,8 @@
         "time": 424,
         "impact_statement": "It may be possible to use one drug, rather than several, to tackle viral infections.",
         "articles": [
-          "03830"
+          "03830",
+        "sidebar": ""
         ]
       },
       {
@@ -929,7 +1135,8 @@
         "impact_statement": "Some bacteria can survive and thrive despite not having a cell wall.",
         "articles": [
           "04629",
-          "05427"
+          "05427",
+        "sidebar": ""
         ]
       },
       {
@@ -939,7 +1146,8 @@
         "impact_statement": "The genes responsible for antibiotics can spread between all three of the domains of life.",
         "articles": [
           "04266",
-          "05244"
+          "05244",
+        "sidebar": "Seth Bordenstein discusses gene transfer in the eLife podcast"
         ]
       },
       {
@@ -949,7 +1157,8 @@
         "impact_statement": "A beetle pheromone that lures nematode worms to an insect host can also stop their development or even kill them outright.",
         "articles": [
           "03229",
-          "05259"
+          "05259",
+        "sidebar": ""
         ]
       },
       {
@@ -958,7 +1167,8 @@
         "time": 1677,
         "impact_statement": "When an epithelial stem cell divides, why does one of the new cells remain a stem cell while the other becomes a specialized cell?",
         "articles": [
-          "04437"
+          "04437",
+        "sidebar": "Todd Nystul talks about epithelial stem cells in the eLife podcast"
         ]
       }
     ]
@@ -978,7 +1188,8 @@
         "time": 39,
         "impact_statement": "Researchers are exploring new ways to assess the risks posed to humans by non-human influenza viruses.",
         "articles": [
-          "03883"
+          "03883",
+        "sidebar": "Colin Russell discusses influenza pandemics in the eLife podcast"
         ]
       },
       {
@@ -987,7 +1198,8 @@
         "time": 400,
         "impact_statement": "How do we know when we have eaten too much?",
         "articles": [
-          "04402"
+          "04402",
+        "sidebar": "Listen to an interview with William Olds in the eLife podcast"
         ]
       },
       {
@@ -996,7 +1208,8 @@
         "time": 736,
         "impact_statement": "The role of cannabinoid receptors in the development of the brain is becoming clearer.",
         "articles": [
-          "03159"
+          "03159",
+        "sidebar": ""
         ]
       },
       {
@@ -1006,7 +1219,8 @@
         "impact_statement": "HIV-1 DNA could be a biomarker for disease progression.",
         "articles": [
           "03821",
-          "04742"
+          "04742",
+        "sidebar": ""
         ]
       },
       {
@@ -1015,7 +1229,8 @@
         "time": 1434,
         "impact_statement": "Different forms of regulation can lead to the formation of similar physical features.",
         "articles": [
-          "03728"
+          "03728",
+        "sidebar": ""
         ]
       }
     ]
@@ -1036,7 +1251,8 @@
         "impact_statement": "Changes in lifestyles mean than new outbreaks of Ebola virus disease are likely to be very different from previous outbreaks.",
         "articles": [
           "04395",
-          "04565"
+          "04565",
+        "sidebar": ""
         ]
       },
       {
@@ -1045,7 +1261,8 @@
         "time": 428,
         "impact_statement": "A set of 149 papers that were retracted due to misconduct had been funded to the tune of $58m by the NIH.",
         "articles": [
-          "02956"
+          "02956",
+        "sidebar": "Listen to an interview with Ferric Fang in the eLife podcast"
         ]
       },
       {
@@ -1054,7 +1271,8 @@
         "time": 795,
         "impact_statement": "Why do some yeast cells grow old whereas others do not?",
         "articles": [
-          "03504"
+          "03504",
+        "sidebar": ""
         ]
       },
       {
@@ -1063,7 +1281,8 @@
         "time": 1151,
         "impact_statement": "A suppression hierarchy determines the order in which a fly cleans the different parts of its body.",
         "articles": [
-          "02951"
+          "02951",
+        "sidebar": "Andrew Seeds and Julie Simpson discuss how flies groom themselves in the eLife podcast"
         ]
       },
       {
@@ -1073,7 +1292,8 @@
         "impact_statement": "Bacteria and fungal cells join forces to cause rice seedling blight.",
         "articles": [
           "03007",
-          "04603"
+          "04603",
+        "sidebar": ""
         ]
       }
     ]
@@ -1093,7 +1313,8 @@
         "time": 34,
         "impact_statement": "Using a combination of computer vision and machine learning to analyze photographs of faces can assist in the diagnosis of rare genetic disorders.",
         "articles": [
-          "02020"
+          "02020",
+        "sidebar": "Christoffer Nellåker discusses a new approach to identifying rare genetic disorders in the eLife podcast"
         ]
       },
       {
@@ -1102,7 +1323,8 @@
         "time": 316,
         "impact_statement": "Viewing a visual stimulus whilst running helps mice that have lost their sight in one eye to make a near-complete recovery.",
         "articles": [
-          "02798"
+          "02798",
+        "sidebar": "Listen to an interview with Michael Stryker in the eLife podcast"
         ]
       },
       {
@@ -1111,7 +1333,8 @@
         "time": 745,
         "impact_statement": "How do different species remain distinct if they can mate with each other to produce hybrid offspring?",
         "articles": [
-          "02535"
+          "02535",
+        "sidebar": ""
         ]
       },
       {
@@ -1120,7 +1343,8 @@
         "time": 1080,
         "impact_statement": "Why does too little MeCP2 cause Rett syndrome, while too much causes MECP2 duplication syndrome?",
         "articles": [
-          "02676"
+          "02676",
+        "sidebar": ""
         ]
       },
       {
@@ -1129,7 +1353,8 @@
         "time": 1415,
         "impact_statement": "Gene drives could be used to eradicate diseases and support sustainable agriculture, but they must be handled with care.",
         "articles": [
-          "03401"
+          "03401",
+        "sidebar": ""
         ]
       }
     ]
@@ -1150,7 +1375,8 @@
         "impact_statement": "Why don't we bite our tongues when we chew?",
         "articles": [
           "02511",
-          "03235"
+          "03235",
+        "sidebar": ""
         ]
       },
       {
@@ -1159,7 +1385,8 @@
         "time": 361,
         "impact_statement": "The immune response triggered by eczema may reduce the risk of skin cancer.",
         "articles": [
-          "01888"
+          "01888",
+        "sidebar": ""
         ]
       },
       {
@@ -1169,7 +1396,8 @@
         "impact_statement": "How the parasite that causes sleeping sickness keeps one step ahead of its host.",
         "articles": [
           "02324",
-          "03176"
+          "03176",
+        "sidebar": "Christopher Batram discusses the parasite that causes sleeping sickness"
         ]
       },
       {
@@ -1179,7 +1407,8 @@
         "impact_statement": "A protein complex called TSET sheds light on the evolution of trafficking pathways.",
         "articles": [
           "02866",
-          "03128"
+          "03128",
+        "sidebar": "Margaret Robinson and Jenny Hirst discuss missing links"
         ]
       },
       {
@@ -1188,7 +1417,8 @@
         "time": 1288,
         "impact_statement": "eLife editor-in-chief Randy Schekman discusses scientific publishing.",
         "articles": [
-          ""
+          "",
+        "sidebar": ""
         ]
       }
     ]
@@ -1209,7 +1439,8 @@
         "impact_statement": "Drugs could treat neuropathic pain more effectively if they targeted more than one type of ion channel.",
         "articles": [
           "02370",
-          "02615"
+          "02615",
+        "sidebar": "Stéphanie Ratté and Steven Prescott discuss neuropathic pain in the eLife podcast"
         ]
       },
       {
@@ -1219,7 +1450,8 @@
         "impact_statement": "Viruses have been used to deliver two types of nucleases into cells for targeted gene editing.",
         "articles": [
           "01911",
-          "02904"
+          "02904",
+        "sidebar": "Jacob Giehm Mikkelsen discusses targeted genome editing in the eLife podcast"
         ]
       },
       {
@@ -1228,7 +1460,8 @@
         "time": 813,
         "impact_statement": "Generating different types of hormone secreting cells from human tissue sources could lead to new treatments for diabetes.",
         "articles": [
-          "01846"
+          "01846",
+        "sidebar": "Joe Zhou explains how to reprogram pancreatic cells in the eLife podcast"
         ]
       },
       {
@@ -1238,7 +1471,8 @@
         "impact_statement": "Learning more about the genes that allow flatworms to regenerate organs and tissue after amputation.",
         "articles": [
           "02238",
-          "02517"
+          "02517",
+        "sidebar": "Carrie Adler describes the amazing properties of planaria in the eLife podcast"
         ]
       },
       {
@@ -1247,7 +1481,8 @@
         "time": 1459,
         "impact_statement": "A protein that regulates metabolism in worms also helps to protect them from the effects of aging.",
         "articles": [
-          "01730"
+          "01730",
+        "sidebar": "Luis René García discusses the aging of worms in the eLife podcast"
         ]
       }
     ]
@@ -1268,7 +1503,8 @@
         "impact_statement": "Single mutations in three genes can increase the ability of E. coli to survive ionizing radiation by a factor of 1000.",
         "articles": [
           "01322",
-          "02387"
+          "02387",
+        "sidebar": "Michael Cox discusses radiation resistance in E coli in the eLife Podcast"
         ]
       },
       {
@@ -1277,7 +1513,8 @@
         "time": 373,
         "impact_statement": "Male flies rub chemicals called TAGs onto female flies during mating to make them less attractive to other males.",
         "articles": [
-          "01751"
+          "01751",
+        "sidebar": "Joanne Yew talks about the mating habits of flies in the eLife Podcast"
         ]
       },
       {
@@ -1287,7 +1524,8 @@
         "impact_statement": "The Hawaiian bobtail squid and V. fischeri bacteria are the best of friends.",
         "articles": [
           "01579",
-          "02386"
+          "02386",
+        "sidebar": "Caitlin Brennan explains how the Hawaiian bobtail squid and certain bacteria work together"
         ]
       },
       {
@@ -1296,7 +1534,8 @@
         "time": 1051,
         "impact_statement": "The receptors that allow insects to smell various chemicals probably evolved around the time they developed the ability to fly.",
         "articles": [
-          "02115"
+          "02115",
+        "sidebar": "Christine Missbach discusses the evolution of the sense of smell in insects in the eLife Podcast"
         ]
       }
     ]
@@ -1317,7 +1556,8 @@
         "impact_statement": "A protein called RYE – short for Redeye - has a central role in the regulation of sleep.",
         "articles": [
           "01473",
-          "02087"
+          "02087",
+        "sidebar": "Amita Sehgal talks about sleep in episode 9 on the eLife podcast"
         ]
       },
       {
@@ -1326,7 +1566,8 @@
         "time": 376,
         "impact_statement": "Chaperones are proteins that help other proteins to fold properly, and being flexible makes them better at this task.",
         "articles": [
-          "01584"
+          "01584",
+        "sidebar": "James Bardwell talks about Super Spy chaperones in the eLife podcast"
         ]
       },
       {
@@ -1335,7 +1576,8 @@
         "time": 713,
         "impact_statement": "Bacteria employ a sophisticated method to ensure that they swim in a particular direction.",
         "articles": [
-          "01916"
+          "01916",
+        "sidebar": "Patrick Mears discusses how E coli swim in the eLife podcast."
         ]
       },
       {
@@ -1344,7 +1586,8 @@
         "time": 1052,
         "impact_statement": "Orphan genes appear and disappear quite quickly in Drosophila, leaving the total number of genes roughly constant.",
         "articles": [
-          "01311"
+          "01311",
+        "sidebar": "Christian Schlötterer talks about orphan genes in the eLife podcast."
         ]
       },
       {
@@ -1354,7 +1597,8 @@
         "impact_statement": "Songbirds stop listening to themselves when they start to sing.",
         "articles": [
           "01833",
-          "02289"
+          "02289",
+        "sidebar": "Richard Mooney discusses the neuroscience of birdsong in the eLife podcast."
         ]
       }
     ]
@@ -1375,7 +1619,8 @@
         "impact_statement": "Over half of all shark and ray species are “threatened or near threatened” according to new estimates.",
         "articles": [
           "00590",
-          "02199"
+          "02199",
+        "sidebar": "Nicholas Dulvy describes the threats facing sharks and rays in episode 8 of the eLife podcast"
         ]
       },
       {
@@ -1384,7 +1629,8 @@
         "time": 375,
         "impact_statement": "A rat will help another rat if it is familiar with that type of rat, even if it has not met the actual rat before.",
         "articles": [
-          "01385"
+          "01385",
+        "sidebar": "Peggy Mason talks about pro-social behavior in rats in episode 8 of the eLife podcast"
         ]
       },
       {
@@ -1393,7 +1639,8 @@
         "time": 699,
         "impact_statement": "Researchers have worked out the structure of a protein complex that is involved in the destruction of T helper cells by HIV.",
         "articles": [
-          "01754"
+          "01754",
+        "sidebar": "James Hurley talks about the destruction of T helper cells in episode 8 of the eLife podcast"
         ]
       },
       {
@@ -1402,7 +1649,8 @@
         "time": 1014,
         "impact_statement": "The pathogen that causes corn smut in maize employs a sophisticated strategy to increase its virulence.",
         "articles": [
-          "01355"
+          "01355",
+        "sidebar": "Regine Kahmann explains how corn smut attacks maize in episode 8 of the eLife podcast"
         ]
       },
       {
@@ -1412,7 +1660,8 @@
         "impact_statement": "The body shapes of queen ants and worker ants have evolved in different ways to reflect their different roles.",
         "articles": [
           "01539",
-          "02088"
+          "02088",
+        "sidebar": "Roberto Keller talks about the evolution of body shape in ants in episode 8 of the eLife podcast"
         ]
       }
     ]
@@ -1433,7 +1682,8 @@
         "impact_statement": "Resistance to antimicrobial drugs is not driven solely by the excessive use of these drugs.",
         "articles": [
           "01229",
-          "01809"
+          "01809",
+        "sidebar": "Steve Baker talks about drug resistance in episode 7 of the eLife Podcast"
         ]
       },
       {
@@ -1443,7 +1693,8 @@
         "impact_statement": "Why do some patients with severe brain injury become more alert after treatment with the sleeping pill zolpidem?",
         "articles": [
           "01157",
-          "01658"
+          "01658",
+        "sidebar": "Nicholas Schiff talks about severe brain injury in episode 7 of the eLife Podcast"
         ]
       },
       {
@@ -1453,7 +1704,8 @@
         "impact_statement": "How is the brain able to tell the difference between natural sugar and artificial sweetener?",
         "articles": [
           "01462",
-          "01928"
+          "01928",
+        "sidebar": "Jeff Friedman compares sugar and sweetener in episode 7 of the eLife Podcast"
         ]
       },
       {
@@ -1462,7 +1714,8 @@
         "time": 1041,
         "impact_statement": "Mathematical biologists are exploring the origins of cooperation in microbes.",
         "articles": [
-          "01169"
+          "01169",
+        "sidebar": "Benjamin Allen talks about cooperation between microbes in episode 7 of the eLife Podcast"
         ]
       },
       {
@@ -1471,7 +1724,8 @@
         "time": 1375,
         "impact_statement": "Rapid changes in the genes for transfer RNA have been observed in experiments on yeast.",
         "articles": [
-          "01339"
+          "01339",
+        "sidebar": "Yitzhak Pilpel talks about the evolution of protein translation machinery in cells"
         ]
       }
     ]
@@ -1492,16 +1746,18 @@
         "impact_statement": "Very cold weak electron beams have been used to collect large numbers of diffraction patterns from protein microcrystals.",
         "articles": [
           "01345",
-          "01662"
+          "01662",
+        "sidebar": "Tamir Gonen talks about electron crystallography in episode 6 of the eLife Podcast"
         ]
       },
       {
         "number": 2,
-        "title": "If your blood gets too acidic you will die",
+        "title": ""If your blood gets too acidic you will die"",
         "time": 357,
         "impact_statement": "Carbon dioxide could be involved in processes as diverse as breathing, hearing and reproduction.",
         "articles": [
-          "01213"
+          "01213",
+        "sidebar": "Louise Meigh talks about carbon dioxide as a signaling molecule in episode 6 of the eLife Podcast"
         ]
       },
       {
@@ -1511,7 +1767,8 @@
         "impact_statement": "The gut microbiota of patients with rheumatoid arthritis is enriched in microbes belonging to the Prevotella genus.",
         "articles": [
           "01202",
-          "01608"
+          "01608",
+        "sidebar": "Dan Littman talks about gut bacteria and arthritis in episode 6 of the eLife Podcast"
         ]
       },
       {
@@ -1520,7 +1777,8 @@
         "time": 1025,
         "impact_statement": "In individuals with a missing hand, the area of the brain responsible for that hand learns to control the remaining hand or the residual limb.",
         "articles": [
-          "01273"
+          "01273",
+        "sidebar": "Tamar Makin talks about the plasticity of the brain in episode 6 of the eLife Podcast"
         ]
       },
       {
@@ -1529,7 +1787,8 @@
         "time": 2126,
         "impact_statement": "Conical whiskers allow mammals that live in tunnels and other enclosed spaces to learn more about their surroundings.",
         "articles": [
-          "01350"
+          "01350",
+        "sidebar": "Andrew Hires explains why rodent whiskers are conical in episode 6 of the eLife Podcast"
         ]
       }
     ]
@@ -1550,7 +1809,8 @@
         "impact_statement": "Human sperm cells rely on an unusual type of potassium ion channel.",
         "articles": [
           "01009",
-          "01469"
+          "01469",
+        "sidebar": "Nadja Mannowetz talks about ion channels and sperm in episode 5 of the eLife Podcast"
         ]
       },
       {
@@ -1559,7 +1819,8 @@
         "time": 420,
         "impact_statement": "Measurements of bacteria could have applications in forensic science.",
         "articles": [
-          "01104"
+          "01104",
+        "sidebar": "Jessicsa Metcalf talks about bacteria and forensic science in episode 5 of the eLife Podcast"
         ]
       },
       {
@@ -1568,7 +1829,8 @@
         "time": 777,
         "impact_statement": "Researchers have found evidence for a new phylum of bacteria.",
         "articles": [
-          "01102"
+          "01102",
+        "sidebar": "Sara Di Rienzi describes evidence for a new phylum of bacteria in episode 5 of the eLife Podcast"
         ]
       },
       {
@@ -1578,7 +1840,8 @@
         "impact_statement": "The epithelium that lines our airways is maintained by a population of basal cells.",
         "articles": [
           "00966",
-          "01541"
+          "01541",
+        "sidebar": "Sam Janes talks about stem cells and smoking in episode 5 of the eLife Podcast"
         ]
       },
       {
@@ -1587,7 +1850,8 @@
         "time": 1505,
         "impact_statement": "The use of metaphorical concepts is not unique to humans.",
         "articles": [
-          "00932"
+          "00932",
+        "sidebar": "Ikuma Adachi talks about chimpanzees and social hierarchies in episode 5 of the eLife Podcast"
         ]
       }
     ]
@@ -1608,7 +1872,8 @@
         "impact_statement": "How are organisms such as planarians able to grow new heads and tails?",
         "articles": [
           "00247",
-          "00533"
+          "00533",
+        "sidebar": "Peter Reddien talks about tissue regeneration in epsiode 4 of the eLife podcast"
         ]
       },
       {
@@ -1618,7 +1883,8 @@
         "impact_statement": "Computational techniques have shed fresh light on how C4 photosynthesis evolved from C3 photosynthesis.",
         "articles": [
           "00961",
-          "01403"
+          "01403",
+        "sidebar": "Julian Hibberd talks about the evolution of photosynthesis in episode 4 of the eLife podcast"
         ]
       },
       {
@@ -1627,7 +1893,8 @@
         "time": 814,
         "impact_statement": "Mice that grow up in environments with lots of stimuli are less social and more territorial than mice that grow up in more spartan surroundings.",
         "articles": [
-          "00759"
+          "00759",
+        "sidebar": "Alon Chen talks about social interaction in mice in episode 4 of the eLife podcast"
         ]
       },
       {
@@ -1637,7 +1904,8 @@
         "impact_statement": "Cells undergoing programmed cell death release signals that trigger apoptosis in distant cells.",
         "articles": [
           "01004",
-          "01388"
+          "01388",
+        "sidebar": "Hermann Steller talks about "undead" cells in episode 4 of the eLife podcast"
         ]
       },
       {
@@ -1646,7 +1914,8 @@
         "time": 2126,
         "impact_statement": "How much steroid is needed to switch on a single gene?",
         "articles": [
-          "00750"
+          "00750",
+        "sidebar": "Daniel Larson talks about watching transcription in single cells in episode 4 of the eLife podcast"
         ]
       }
     ]
@@ -1667,7 +1936,8 @@
         "impact_statement": "Neuroscientists are getting closer to understanding how people can distinguish where different sounds come from in noisy environments.",
         "articles": [
           "00699",
-          "01136"
+          "01136",
+        "sidebar": "Sundeep Teki talks about the cocktail party effect in episode 3 of the eLife Podcast"
         ]
       },
       {
@@ -1676,7 +1946,8 @@
         "time": 421,
         "impact_statement": "Researchers have discovered a role for pseudogenes – which are thought to be dead genes – in regulating the immune response.",
         "articles": [
-          "00762"
+          "00762",
+        "sidebar": "Howard Chang talks about pseudogene RNA in episode 3 of the eLife Podcast"
         ]
       },
       {
@@ -1686,7 +1957,8 @@
         "impact_statement": "Experiments with stem cells are shedding new light on the genetic origins of one of the most common forms of inherited blindness.",
         "articles": [
           "00824",
-          "01291"
+          "01291",
+        "sidebar": "Budd Tucker talks about a common form of blindness"
         ]
       },
       {
@@ -1696,7 +1968,8 @@
         "impact_statement": "Changes in gene expression could be used to predict whether individuals will respond successfully to the influenza vaccine.",
         "articles": [
           "00299",
-          "00899"
+          "00899",
+        "sidebar": "John Belmont explains how genes influence our response to the flu vaccine in episode 3 of the eLife Podcast"
         ]
       },
       {
@@ -1706,7 +1979,8 @@
         "impact_statement": "Genetic techniques are providing new insights into the origins of schistosomiasis, a tropical disease that is caused by parasitic flatworms.",
         "articles": [
           "00768",
-          "01115"
+          "01115",
+        "sidebar": "Phillip Newmark talks about the origins of schistosomiasis in episode 3 of the eLife Podcast"
         ]
       }
     ]
@@ -1726,7 +2000,8 @@
         "time": 44,
         "impact_statement": "Plants use chemical reactions to calculate the rate at which they can use up their stores of starch during the night and still have some left at sunrise.",
         "articles": [
-          "00669"
+          "00669",
+        "sidebar": "Martin Howard and Alison Smith talk about plants performing arithmetic division in episode 2 of the eLife Podcast"
         ]
       },
       {
@@ -1735,7 +2010,8 @@
         "time": 418,
         "impact_statement": "A mathematical model has predicted that cancer drugs given in combination are more effective than the same drugs given in sequence.",
         "articles": [
-          "00747"
+          "00747",
+        "sidebar": "Martin Nowak talks about the evolutionary dynamics of cancer in episode 2 of the eLife Podcast"
         ]
       },
       {
@@ -1745,7 +2021,8 @@
         "impact_statement": "Researchers have identified a receptor that prevents blood vessels forming in the outer retina—a process that can lead to blindness—by sequestering a crucial growth factor.",
         "articles": [
           "00324",
-          "00948"
+          "00948",
+        "sidebar": "Balamurali Ambati explains why blood vessels don't form in the retina in episode 2 of the eLife Podcast"
         ]
       },
       {
@@ -1754,7 +2031,8 @@
         "time": 1342,
         "impact_statement": "Single-molecule measurements in living cells have revealed that a single foreign peptide is able to activate a single T cell.",
         "articles": [
-          "00778"
+          "00778",
+        "sidebar": "Geoff O'Donoghue talks about performing single-molecule measurements in the immune system"
         ]
       },
       {
@@ -1765,7 +2043,8 @@
         "articles": [
           "01061",
           "00800",
-          "00603"
+          "00603",
+        "sidebar": ""
         ]
       }
     ]
@@ -1786,7 +2065,8 @@
         "impact_statement": "Extremely low concentrations of a molecule produced by bacteria can cause single-celled organisms to form colonies, which suggests that bacteria might have influenced the origin of multicellularity in animals",
         "articles": [
           "00013",
-          "00242"
+          "00242",
+        "sidebar": "Rosie Alegado talks about the origins of multicellularity in episode 1 of the eLife Podcast"
         ]
       },
       {
@@ -1796,7 +2076,8 @@
         "impact_statement": "The strain of P. infestans that caused the Great Famine in the late 1840s has been identified by sequencing the genomes of samples collected in the 19th century.",
         "articles": [
           "00731",
-          "00954"
+          "00954",
+        "sidebar": "Sophien Kamoun and Hernan Burbano talk about genomics and potato famines in episode 1 of the eLife Podcast"
         ]
       },
       {
@@ -1805,7 +2086,8 @@
         "time": 901,
         "impact_statement": "eLife deputy editor Fiona Watt explains why eLife was launched and what it hopes to achieve.",
         "articles": [
-          "00799"
+          "00799",
+        "sidebar": "eLife deputy editor Fiona Watt talks about the launch of eLife and what the journal hopes to achieve"
         ]
       },
       {
@@ -1815,9 +2097,10 @@
         "impact_statement": "The identification of a functional receptor for the hepatitis B and D viruses could lead to new strategies for tackling these diseases.",
         "articles": [
           "00049",
-          "00301"
+          "00301",
+        "sidebar": "Wenhui Li talks about the discovery of the receptor for the hepatitis B and D viruses in episode 1 of the eLife Podcast"
         ]
-      },
+        },
       {
         "number": 5,
         "title": "The effect of fog on car drivers",
@@ -1825,7 +2108,8 @@
         "impact_statement": "Virtual reality experiments show that motorists slow down when driving in fog, but they speed up when visibility is reduced equally at all distances.",
         "articles": [
           "00031",
-          "00281"
+          "00281",
+        "sidebar": "Paolo Pretto talks about the effect that fog has on our perceptions of speed while driving"
         ]
       },
       {
@@ -1834,7 +2118,8 @@
         "time": 2126,
         "impact_statement": "Similarities between the chromatin in archaea and eukaryotes suggest that it might have been involved in gene regulation before its role in DNA packaging evolved.",
         "articles": [
-          "00078"
+          "00078",
+        "sidebar": "Corey Nislow talks about the evolution of chromatin in episode 1 of the eLife Podcast"
         ]
       }
     ]
