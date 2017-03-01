@@ -1,0 +1,54 @@
+uuid: 02527974-89e4-44fc-a15b-424c47680cba
+langcode: en
+status: true
+dependencies:
+  config:
+    - entityqueue.entity_queue.covers_preview
+    - field.field.entity_subqueue.covers_preview.field_covers_active_items
+    - field.field.entity_subqueue.covers_preview.field_covers_publish
+    - field.field.entity_subqueue.covers_preview.field_covers_reset
+  module:
+    - jcms_admin
+id: entity_subqueue.covers_preview.default
+targetEntityType: entity_subqueue
+bundle: covers_preview
+mode: default
+content:
+  field_covers_active_items:
+    weight: 2
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_covers_publish:
+    weight: 3
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+  field_covers_reset:
+    weight: 4
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+  items:
+    type: jcms_inline_entity_form_complex
+    weight: 1
+    settings:
+      form_mode: default
+      label_singular: ''
+      label_plural: ''
+      allow_new: '1'
+      allow_existing: '1'
+      match_operator: CONTAINS
+      override_labels: 0
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

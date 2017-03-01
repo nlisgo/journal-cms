@@ -14,6 +14,7 @@ use Drupal\jcms_rest\Exception\JCMSBadRequestHttpException;
 use Drupal\node\Entity\Node;
 use Drupal\paragraphs\Entity\Paragraph;
 use Drupal\rest\Plugin\ResourceBase;
+use Drupal\user\Entity\User;
 
 abstract class AbstractRestResourceBase extends ResourceBase {
 
@@ -538,6 +539,18 @@ abstract class AbstractRestResourceBase extends ResourceBase {
     }
 
     return $item_values;
+  }
+
+  public function viewUnpublished() {
+    $request = \Drupal::request();
+    if ($username = $request->getUser()) {
+      /* @var User $user */
+      $user = user_load_by_name($username);
+      return $user->hasPermission('view all revisions');
+    }
+    else {
+      return FALSE;
+    }
   }
 
 }

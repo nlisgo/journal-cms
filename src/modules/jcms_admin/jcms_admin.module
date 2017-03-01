@@ -4,8 +4,10 @@
  * JCMS admin module file.
  */
 
+use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Entity\EntityTypeInterface;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\entityqueue\Entity\EntitySubqueue;
 use Drupal\node\Entity\Node;
 
 /**
@@ -114,8 +116,12 @@ function jcms_admin_form_node_annual_report_form_alter(&$form, FormStateInterfac
 /**
  * Implements hook_form_alter().
  */
-function jcms_admin_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+function jcms_admin_form_alter(&$form, FormStateInterface $form_state, $form_id) {
   switch ($form_id) {
+    case 'node_cover_form':
+    case 'node_cover_edit_form':
+    $form['#validate'][] = '_jcms_admin_form_node_cover_form_validate';
+      break;
     case 'node_article_form':
     case 'node_article_edit_form':
       $form['#validate'][] = '_jcms_admin_form_node_article_form_validate';
@@ -192,4 +198,45 @@ function _jcms_admin_node_title_unique($title, $node, $content_type = NULL) {
   }
 
   return TRUE;
+}
+
+/**
+ * Implements hook_ENTITY_TYPE_presave().
+ */
+function jcms_admin_entity_subqueue_presave(EntityInterface $entity) {
+  if ($entity->bundle() != 'covers_preview') {
+    return NULL;
+  }
+  if ((bool) $entity->get('field_covers_publish')->getString()) {
+    $entity->set('field_covers_publish', 0);
+    $items = ($entity->get('items')) ? $entity->get('items')->getValue() : [];
+    $items = array_splice($items, 0, $entity->get('field_covers_active_items')->getString());
+    foreach ($items as $item) {
+      $node = Node::load($item['target_id']);
+      $moderation_info = \Drupal::service('content_moderation.moderation_information');
+      if (!$moderation_info->isLatestRevision($node)) {
+        $latest = $moderation_info->getLatestRevision($node->getEntityTypeId(), $node->id());
+        $latest->moderation_state->target_id = 'published';
+        $latest->save();
+      }
+      else {
+        $node->moderation_state->target_id = 'published';
+        $node->save();
+      }
+    }
+    $subqueue = EntitySubqueue::load('covers');
+    $subqueue->set('items', $items);
+    $subqueue->save();
+  }
+  if ((bool) $entity->get('field_covers_reset')->getString()) {
+    $entity->set('field_covers_reset', 0);
+    $subqueue = EntitySubqueue::load('covers');
+    $items = ($subqueue->get('items')) ? $subqueue->get('items')->getValue() : [];
+    foreach ($items as $item) {
+      $node = Node::load($item['target_id']);
+      $node->moderation_state->target_id = 'published';
+      $node->save();
+    }
+    $entity->set('items', $items);
+  }
 }

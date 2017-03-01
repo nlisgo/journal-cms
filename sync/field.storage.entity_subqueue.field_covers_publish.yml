@@ -1,0 +1,22 @@
+uuid: 54ac1770-0040-4d0f-8ac7-e6084dca64e5
+langcode: en
+status: true
+dependencies:
+  module:
+    - entityqueue
+    - field_permissions
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: entity_subqueue.field_covers_publish
+field_name: field_covers_publish
+entity_type: entity_subqueue
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

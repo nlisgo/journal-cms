@@ -1,0 +1,11 @@
+uuid: 279d634f-8cf6-4e28-80f3-504f3596e030
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: yMaUhNEL_q7h4FRBnSCo3z6R5x__9G1jU8ZRXiBSAkk
+id: draft
+label: Draft
+published: false
+default_revision: false
+weight: -10

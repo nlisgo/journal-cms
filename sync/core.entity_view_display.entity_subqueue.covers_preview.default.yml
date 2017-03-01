@@ -1,0 +1,41 @@
+uuid: f079f6d5-4fcd-4c37-b0f2-87c59b08bc98
+langcode: en
+status: true
+dependencies:
+  config:
+    - entityqueue.entity_queue.covers_preview
+    - field.field.entity_subqueue.covers_preview.field_covers_active_items
+    - field.field.entity_subqueue.covers_preview.field_covers_publish
+    - field.field.entity_subqueue.covers_preview.field_covers_reset
+id: entity_subqueue.covers_preview.default
+targetEntityType: entity_subqueue
+bundle: covers_preview
+mode: default
+content:
+  field_covers_active_items:
+    weight: 2
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  field_covers_publish:
+    weight: 1
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+  field_covers_reset:
+    weight: 3
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+hidden: {  }
