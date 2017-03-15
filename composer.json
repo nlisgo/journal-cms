@@ -83,7 +83,7 @@
     ]
   },
   "scripts": {
-    "clean-up": "chmod -R 755 web/ && rm -rf config/local.settings.php web/ vendor/",
+    "clean-up": "mkdir -p web && chmod -R 755 web/ && rm -rf config/local.settings.php web/ vendor/",
     "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
     "post-install-cmd": [
       "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
