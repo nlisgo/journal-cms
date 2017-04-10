@@ -186,7 +186,17 @@ class JCMSContent extends ProcessPluginBase {
           $file->save();
         }
         elseif (preg_match('/^http/', $image) && $data = $this->getFile($image)) {
-          $new_filename = JCMSImage::transliteration(basename($image));
+          if (preg_match('/googleusercontent/', $image) && !empty($value['alt']) && preg_match('/\.(jpg|jpeg|png|gif)$/i', $value['alt'])) {
+            $new_filename = JCMSImage::transliteration($value['alt']);
+            $value['alt'] = preg_replace('/\.(jpg|jpeg|png|gif)$/i', '', $value['alt']);
+            if (preg_match('/^[a-f0-9]{8}\-/i', $value['alt'])) {
+              unset($value['alt']);
+            }
+          }
+          else {
+            $new_filename = JCMSImage::transliteration(basename($image));
+          }
+
           file_prepare_directory($image_path, FILE_CREATE_DIRECTORY);
           $file = file_save_data($data, $image_path . $new_filename, FILE_EXISTS_REPLACE);
         }

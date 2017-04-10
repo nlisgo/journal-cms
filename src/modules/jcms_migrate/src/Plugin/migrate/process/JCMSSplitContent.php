@@ -6,6 +6,7 @@ use DOMDocument;
 use DOMNode;
 use DOMNodeList;
 use DOMXPath;
+use Drupal\Component\Utility\Random;
 use Drupal\migrate\MigrateExecutableInterface;
 use Drupal\migrate\ProcessPluginBase;
 use Drupal\migrate\Row;
@@ -26,6 +27,7 @@ class JCMSSplitContent extends ProcessPluginBase {
    */
   public function transform($value, MigrateExecutableInterface $migrate_executable, Row $row, $destination_property) {
     if (!empty($value)) {
+      $row_source = $row->getSource();
       $value = $this->tidyHtml($value);
       $dom = new DomDocument();
       libxml_use_internal_errors(TRUE);
@@ -76,16 +78,15 @@ class JCMSSplitContent extends ProcessPluginBase {
                 'type' => 'image',
                 'image' => $child->getAttribute('src'),
               ];
-              if (preg_match('/googleusercontent/', $content_item['image'])) {
-                unset($content_item);
+              if ($alt = $child->getAttribute('alt')) {
+                $content_item['alt'] = $alt;
               }
-              else {
-                if ($alt = $child->getAttribute('alt')) {
-                  $content_item['alt'] = $alt;
-                }
-                if ($caption = $child->getAttribute('caption')) {
-                  $content_item['caption'] = $caption;
-                }
+              elseif (preg_match('/googleusercontent/', $content_item['image'])) {
+                $random = new Random();
+                $content_item['alt'] = substr($row_source['uuid'], -8) . '-' . $random->name() . '.png';
+              }
+              if ($caption = $child->getAttribute('caption')) {
+                $content_item['caption'] = $caption;
               }
               break;
             case 'div':
