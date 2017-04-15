@@ -1,6 +1,7 @@
 services:
   jcms_notifications.queue_service:
     class: Drupal\jcms_notifications\QueueService
+    arguments: [null, '@event_dispatcher']
   jcms_notifications.notification_service:
     class: Drupal\jcms_notifications\NotificationService
   jcms_notifications.entity_crud_notification_service:
@@ -13,4 +14,8 @@ services:
     class: eLife\Bus\Limit\MemoryLimit
     factory: ['eLife\Bus\Limit\MemoryLimit', 'mb']
     arguments: [128]
+  jcms_notifications.sqs_event_subscriber:
+    class: Drupal\jcms_notifications\EventSubscriber\SqsEventSubscriber
+    tags:
+      - { name: 'event_subscriber' }
 

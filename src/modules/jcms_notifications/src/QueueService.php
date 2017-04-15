@@ -5,7 +5,9 @@ namespace Drupal\jcms_notifications;
 use Aws\AwsClientInterface;
 use Aws\Sqs\SqsClient;
 use Drupal\Core\Site\Settings;
+use Drupal\jcms_notifications\Event\SqsEvent;
 use Drupal\jcms_notifications\Queue\SqsMessage;
+use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 
 /**
  * Class QueueService.
@@ -26,11 +28,17 @@ final class QueueService {
   protected $region = '';
 
   /**
+   * @var EventDispatcherInterface
+   */
+  private $eventDispatcher;
+
+  /**
    * QueueService constructor.
    *
    * @param \Aws\AwsClientInterface|NULL $sqs_client
+   * @param \Symfony\Component\EventDispatcher\EventDispatcherInterface $event_dispatcher
    */
-  public function __construct(AwsClientInterface $sqs_client = NULL) {
+  public function __construct(AwsClientInterface $sqs_client = NULL, EventDispatcherInterface $event_dispatcher) {
     $this->endpoint = Settings::get('jcms_sqs_endpoint');
     $this->queueName = Settings::get('jcms_sqs_queue');
     $this->region = Settings::get('jcms_sqs_region');
@@ -43,6 +51,7 @@ final class QueueService {
       $config['endpoint'] = $this->endpoint;
     }
     $this->sqsClient = $sqs_client ?: new SqsClient($config);
+    $this->eventDispatcher = $event_dispatcher;
   }
 
   /**
@@ -75,6 +84,7 @@ final class QueueService {
         break;
       }
       $message = $this->mapSqsMessage($response);
+      $this->eventDispatcher->dispatch(SqsEvent::RECEIVE, new SqsEvent($message));
     }
     return $message;
   }
@@ -88,6 +98,7 @@ final class QueueService {
    */
   public function deleteMessage(SqsMessage $sqsMessage) {
     $queue = $this->getQueue();
+    $this->eventDispatcher->dispatch(SqsEvent::DELETE, new SqsEvent($sqsMessage));
     return $this->sqsClient->deleteMessage([
       'QueueUrl' => $queue['QueueUrl'],
       'ReceiptHandle' => $sqsMessage->getReceipt(),
