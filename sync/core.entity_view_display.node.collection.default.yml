@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.collection.field_community_list
     - field.field.node.collection.field_curators
     - field.field.node.collection.field_image
+    - field.field.node.collection.field_image_attribution
     - field.field.node.collection.field_impact_statement
     - field.field.node.collection.field_order_date
     - field.field.node.collection.field_subjects
@@ -74,6 +75,13 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
+  field_image_attribution:
+    weight: 112
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
     region: content
   field_impact_statement:
     weight: 102

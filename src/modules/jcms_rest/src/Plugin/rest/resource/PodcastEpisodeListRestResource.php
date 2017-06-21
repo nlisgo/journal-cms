@@ -78,7 +78,7 @@ class PodcastEpisodeListRestResource extends AbstractRestResourceBase {
     }
 
     // Image is optional.
-    if ($image = $this->processFieldImage($node->get('field_image'), FALSE, 'thumbnail')) {
+    if ($image = $this->processFieldImage($node->get('field_image'), $node->get('field_image_attribution'), FALSE, 'thumbnail')) {
       $item['image'] = $image;
     }
 

@@ -69,7 +69,7 @@ class SubjectListRestResource extends AbstractRestResourceBase {
       'id' => $term->get('field_subject_id')->getString(),
       'name' => $term->toLink()->getText(),
     ];
-    $item['image'] = $this->processFieldImage($term->get('field_image'), TRUE);
+    $item['image'] = $this->processFieldImage($term->get('field_image'), $term->get('field_image_attribution'), TRUE);
 
     if ($term->get('field_impact_statement')->count()) {
       $item['impactStatement'] = $this->fieldValueFormatted($term->get('field_impact_statement'));

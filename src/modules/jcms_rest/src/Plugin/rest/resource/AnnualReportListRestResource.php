@@ -78,7 +78,7 @@ class AnnualReportListRestResource extends AbstractRestResourceBase {
     }
 
     // Image is required.
-    $item['image'] = $this->processFieldImage($node->get('field_image'), FALSE, 'thumbnail', TRUE);
+    $item['image'] = $this->processFieldImage($node->get('field_image'), NULL, FALSE, 'thumbnail', TRUE);
 
     return $item;
   }

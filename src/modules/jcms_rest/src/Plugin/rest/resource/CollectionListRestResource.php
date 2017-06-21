@@ -74,7 +74,7 @@ class CollectionListRestResource extends AbstractRestResourceBase {
     $item = $this->processDefault($node);
 
     // Image is optional.
-    if ($image = $this->processFieldImage($node->get('field_image'), FALSE, 'thumbnail')) {
+    if ($image = $this->processFieldImage($node->get('field_image'), $node->get('field_image_attribution'), FALSE, 'thumbnail')) {
       $item['image'] = $image;
     }
 

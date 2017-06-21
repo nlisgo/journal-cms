@@ -127,7 +127,7 @@ class HighlightListRestResource extends AbstractRestResourceBase {
 
     if ($item) {
       // Image is optional.
-      if ($image = $this->processFieldImage($node->get('field_image'), FALSE, 'thumbnail', TRUE)) {
+      if ($image = $this->processFieldImage($node->get('field_image'), $node->get('field_image_attribution'), FALSE, 'thumbnail', TRUE)) {
         $item['image'] = $image;
       }
 

@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.labs_experiment.field_content
     - field.field.node.labs_experiment.field_experiment_number
     - field.field.node.labs_experiment.field_image
+    - field.field.node.labs_experiment.field_image_attribution
     - field.field.node.labs_experiment.field_impact_statement
     - field.field.node.labs_experiment.field_order_date
     - node.type.labs_experiment
@@ -56,6 +57,13 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
+  field_image_attribution:
+    weight: 108
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
     region: content
   field_impact_statement:
     weight: 103

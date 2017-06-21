@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.blog_article.field_community_list
     - field.field.node.blog_article.field_content
     - field.field.node.blog_article.field_image
+    - field.field.node.blog_article.field_image_attribution
     - field.field.node.blog_article.field_impact_statement
     - field.field.node.blog_article.field_order_date
     - field.field.node.blog_article.field_subjects
@@ -47,6 +48,13 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
+  field_image_attribution:
+    weight: 107
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
     region: content
   field_impact_statement:
     weight: 101

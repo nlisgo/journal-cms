@@ -1,0 +1,21 @@
+uuid: a575221c-0c43-4aba-bf35-0c23517d2e84
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image_attribution
+    - node.type.blog_article
+  module:
+    - text
+id: node.blog_article.field_image_attribution
+field_name: field_image_attribution
+entity_type: node
+bundle: blog_article
+label: 'Image attribution'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

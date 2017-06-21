@@ -48,7 +48,7 @@ class PodcastEpisodeItemRestResource extends AbstractRestResourceBase {
       $response = $this->processDefault($node, $number, 'number');
 
       // Image is required.
-      $response['image'] = $this->processFieldImage($node->get('field_image'), TRUE);
+      $response['image'] = $this->processFieldImage($node->get('field_image'), $node->get('field_image_attribution'), TRUE);
 
       // mp3 is required.
       $response['sources'] = [

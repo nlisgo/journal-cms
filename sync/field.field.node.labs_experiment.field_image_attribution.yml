@@ -1,0 +1,21 @@
+uuid: 903bc8d9-8557-46d6-b83f-659cd11d36e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image_attribution
+    - node.type.labs_experiment
+  module:
+    - text
+id: node.labs_experiment.field_image_attribution
+field_name: field_image_attribution
+entity_type: node
+bundle: labs_experiment
+label: 'Image attribution'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

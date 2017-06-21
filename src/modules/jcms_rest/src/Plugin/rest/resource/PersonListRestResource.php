@@ -137,7 +137,7 @@ class PersonListRestResource extends AbstractRestResourceBase {
     }
 
     // Image is optional.
-    if ($image = $this->processFieldImage($node->get('field_image'), FALSE, 'thumbnail', TRUE)) {
+    if ($image = $this->processFieldImage($node->get('field_image'), NULL, FALSE, 'thumbnail', TRUE)) {
       $item['image'] = $image;
     }
 

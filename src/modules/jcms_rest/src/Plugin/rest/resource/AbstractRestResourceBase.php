@@ -172,7 +172,7 @@ abstract class AbstractRestResourceBase extends ResourceBase {
             break;
           case 'image':
             if ($image = $content_item->get('field_block_image')->first()) {
-              $result_item['image'] = $this->processFieldImage($content_item->get('field_block_image'), TRUE, 'banner', TRUE);
+              $result_item['image'] = $this->processFieldImage($content_item->get('field_block_image'), NULL, TRUE, 'banner', TRUE);
               $result_item['image'] = array_diff_key($result_item['image'], array_flip(['sizes']));
               if ($content_item->get('field_block_html')->count()) {
                 $result_item['title'] = $this->fieldValueFormatted($content_item->get('field_block_html'));
@@ -589,7 +589,8 @@ abstract class AbstractRestResourceBase extends ResourceBase {
     ];
 
     if ($image) {
-      $item_values['image'] = $this->processFieldImage($node->get('field_image'), TRUE, 'banner', TRUE);
+      $attribution = ($node->hasField('field_image_attribution')) ? $node->get('field_image_attribution') : NULL;
+      $item_values['image'] = $this->processFieldImage($node->get('field_image'), $attribution, TRUE, 'banner', TRUE);
     }
 
     if ($related->getType() == 'article') {

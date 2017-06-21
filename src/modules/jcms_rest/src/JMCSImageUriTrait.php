@@ -54,12 +54,13 @@ trait JMCSImageUriTrait {
    * Process image field and return json string.
    *
    * @param \Drupal\Core\Field\FieldItemListInterface $data
+   * @param \Drupal\Core\Field\FieldItemListInterface|NULL $attribution
    * @param bool $required
    * @param array|string $size_types
    * @param bool $bump
    * @return array
    */
-  protected function processFieldImage(FieldItemListInterface $data, $required = FALSE, $size_types = ['banner', 'thumbnail'], $bump = FALSE) {
+  protected function processFieldImage(FieldItemListInterface $data, $attribution = NULL, $required = FALSE, $size_types = ['banner', 'thumbnail'], $bump = FALSE) {
     if ($required || $data->count()) {
       $image = $this->getImageSizes($size_types);
 
@@ -70,6 +71,15 @@ trait JMCSImageUriTrait {
       $filename = basename($image_uri);
       $width = (int) $data->first()->getValue()['width'];
       $height = (int) $data->first()->getValue()['height'];
+
+      if ($attribution instanceof FieldItemListInterface && $attribution->count()) {
+        $view = $attribution->view();
+        unset($view['#theme']);
+        $attribution_text = \Drupal::service('renderer')->renderPlain($view);
+      }
+      else {
+        $attribution_text = NULL;
+      }
 
       // @todo - elife - nlisgo - this is a temporary fix until we can trust mimetype of images.
       if (\Drupal::service('file.mime_type.guesser')->guess($image_uri) == 'image/png') {
@@ -99,6 +109,9 @@ trait JMCSImageUriTrait {
             ->absoluteToRelative($crop->x->value, $crop->y->value, $image[$type]['size']['width'], $image[$type]['size']['height']);
 
           $image[$type]['focalPoint'] = $anchor;
+          if (!empty($attribution_text)) {
+            $image[$type]['attribution'] = $attribution_text;
+          }
         }
       }
 

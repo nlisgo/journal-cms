@@ -54,7 +54,7 @@ class AnnualReportItemRestResource extends AbstractRestResourceBase {
       }
 
       // Image is required.
-      $response['image'] = $this->processFieldImage($node->get('field_image'), FALSE, 'thumbnail', TRUE);
+      $response['image'] = $this->processFieldImage($node->get('field_image'), NULL, FALSE, 'thumbnail', TRUE);
 
       $response = new JCMSRestResponse($response, Response::HTTP_OK, ['Content-Type' => $this->getContentType()]);
       $response->addCacheableDependency($node);

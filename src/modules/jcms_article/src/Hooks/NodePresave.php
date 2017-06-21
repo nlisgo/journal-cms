@@ -157,7 +157,7 @@ final class NodePresave {
       return;
     }
 
-    if ($image = $this->processFieldImage($entity->get('field_image'), FALSE, 'thumbnail')) {
+    if ($image = $this->processFieldImage($entity->get('field_image'), NULL, FALSE, 'thumbnail')) {
       $this->fragmentApi->postImageFragment($articleId, json_encode(['image' => $image]));
     }
     else {
